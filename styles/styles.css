@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 main { 
     max-width: 840px;
 }
@@ -44,5 +49,17 @@ p {
 footer {
     margin-top: 25px;
     border-top: 5px steelblue;
+    text-align: center;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid steelblue;
+    background-color: steelblue;
+    color: white;
+}
+
+aside {
+    width: 20em;
     text-align: center;
 }
