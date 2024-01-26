@@ -9,7 +9,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px red;
+    border: 1px solid red; 
     padding: 1rem;
     background-color: white;
     color: steelblue;
@@ -22,7 +22,7 @@ aside img {
 main img{
     width: 150px;
     height: auto;
-    ...
+    /* ... */
 }
 nav {
     background-color: steelblue;
@@ -48,7 +48,7 @@ p {
 }
 footer {
     margin-top: 25px;
-    border-top: 5px steelblue;
+    border-top: 5px solid steelblue; 
     text-align: center;
 }
 
@@ -62,4 +62,13 @@ footer {
 aside {
     width: 20em;
     text-align: center;
+}
+aside img{
+    float: right; 
+    margin: 0 0 10px 15px;
+}
+aside h2{
+    position: relative;
+    top: -10px;
+    left: 0px;
 }
